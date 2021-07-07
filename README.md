@@ -1,9 +1,7 @@
 # WEBs2
-An unbloated website for my art. <br />
-Hosted at: catosc.top (http only for now)
+An unbloated site for art, and general use. Copy however you wish. <br />
+Hosted at: www.catosc.top
 
 **To-do:** <br />
-Host: <br />
-*Music* <br />
-*Edited Novels* <br /> 
-*Surreal Comedy Story+Early Chapters v2* <br />
+*Host Edited Novels* <br /> 
+*Host Surreal Comedy Story+Early Chapters v2* <br />
