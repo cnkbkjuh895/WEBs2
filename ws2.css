@@ -1,6 +1,9 @@
 /* MAIN */
+/* (nl = new line) */
 body { background-color:#323232; }
 p, h2, h3, h4, .two-hs, .threehs, .four-hs { color: #ffffff; }
+p.auto-nl { word-wrap: break-word; }
+iframe { width: 1000px; height: 800px; }
 
 
 /* HEADERS */
@@ -31,7 +34,7 @@ a:link.lemon, a:visited.lemon { color: #f1f7dd; text-decoration: none; }
 a:hover.lemon, a:active.lemon { color: #d8dec6; text-decoration: none; }
 
 
-/* CLASS COLORS */
+/* COLOR CLASSES */
 .rust { color: #d9bec6; }
 
 
