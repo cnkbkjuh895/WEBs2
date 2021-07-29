@@ -14,7 +14,7 @@ p, h2, h3, h4, .two-hs, .threehs, .four-hs { color: #ffffff; }
 
 /* TABLES */
 table, th, td { border: 2px solid #f5f5f5; padding: 4px; }
-table { color: #ffffff; border-collapse: collapse; table-layout: fixed;  width: 50%; }
+table { color: #ffffff; border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 700px }
 td { color: #f1f7dd; text-align: center; }
 th { color: #dcecaa; text-align: center; }
 th.num { width: 5%; }
