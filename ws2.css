@@ -1,5 +1,5 @@
 /* MAIN */
-body { background-color: #323232; font-family: "DejaVu Sans"; }
+body { background-color: #323232; }
 p, h1, h2, h3, h4 { color: #f7f7f7; }
 .center { text-align: center; }
 .spaced { line-height: 2; }
@@ -12,62 +12,80 @@ p, h1, h2, h3, h4 { color: #f7f7f7; }
 .four-hs { font-size: 1em; }
 
 /* TABLES */
-table, th, td { border: 2px solid #f7f7f7; padding: 4px; }
+table, th, td { padding: 4px; }
 table { color: #f7f7f7; border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 700px }
-td { color: #d6f59f; text-align: center; }
+td { color: #9fdca5; text-align: center; height: 15px }
 th { color: #e0f7b6; text-align: center; }
 th.num { width: 5%; }
 th.song { width: 75%; }
 th.date { width: 20%; }
+
+.small-a-150 { min-width: 75px; max-width: 150px }
+.small-a-200 { max-width: 200px }
+.small-a-250 { max-width: 250px }
+.small-a-300 { max-width: 300px }
+.left-a { float: left; margin-left: 10px; margin-right: 35px; }
+.right-a { float: right; right: 0px; margin-right: 10px; margin-left: 35px; }
+.bottom { position: absolute; bottom: 0px; }
 
 /* IMAGES */
 .lady { max-width: 100%; width: auto; height: auto; } /* LADY */
 
 
 /* BOXES */
-/* (t = text, h = header) */
-.green-t { background-color: #7fb5a5; color: #f7f7f7; padding: 5px 10px; } /* GREEN BOXES */
-.rusty-t { background-color: #eab58b; color: #323232; padding: 5px 10px; } /* RUSTY BOXES */
-.lemon-t { background-color: #fff99e; color: #323232; padding: 5px 10px; } /* LEMON BOXES */
+/* (t = text) */
+.green-t { background-color: #7ad083; color: #f7f7f7; padding: 5px 10px; } /* GREEN BOXES */
+.blood-t { background-color: #d63232; color: #323232; padding: 5px 10px; } /* BLOOD BOXES */
+.pink-t { background-color: #ff6ff1; color: #f7f7f7; padding: 5px 10px; } /* PINK BOXES */
 .ocean-t { background-color: #4195e3; color: #f7f7f7; padding: 5px 10px; } /* OCEAN BOXES */
-.orange-t { background-color: #ff6d3c; color: #323232; padding: 5px 10px; } /* ORANGE BOXES */
+.purple-t { background-color: #8b5eab; color: #f7f7f7; padding: 5px 10px; } /* PURPLE BOXES */
+.snow-t { background-color: #f7f7f7; color: #4c4c4c; padding: 5px 10px; } /*WHITE BOXES*/
+
+/* TABLE LINKS+TEXT */
+/* (a = table) */
+.green-a { background-color: #beedc3; color: #323232; } /* GREEN TABLE */
+.green-a2 { background-color: #323232; color: #b0e7b5; } /* GREEN TABLE 2 */
+.green-a3 { background-color: #b0e7b5; color: #323232; } /* GREEN TABLE 3 */
 
 /* LINKS */
 /* DEFAULT LINKS, Green */
-a:link, a:visited { color: #8fbeb0; text-decoration: none; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
-a:hover, a:active { color: #6fac9a; text-decoration: none; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
-/* RUSTY LINKS */
-a:link.rusty, a:visited.rusty { color: #eab58b; }
-a:hover.rusty, a:active.rusty { color: #e29960; }
-/* LEMON LINKS */
-a:link.lemon, a:visited.lemon { color: #fff99e; }
-a:hover.lemon, a:active.lemon { color: #ebdb00; }
+a:link, a:visited { color: #9fdca5; text-decoration: none; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
+a:hover, a:active { color: #d3eed6; text-decoration: none; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
+/* BLOOD LINKS */
+a:link.blood, a:visited.blood { color: #e26f6f; }
+a:hover.blood, a:active.blood { color: #da4646; }
+/* PINK LINKS */
+a:link.pink, a:visited.pink { color: #ff1ba1; }
+a:hover.pink, a:active.pink { color: #6fff7d; }
 /* OCEAN LINKS */
 a:link.ocean, a:visited.ocean { color: #57a1e6; }
 a:hover.ocean, a:active.ocean { color: #4195e3; }
-/* LIME LINKS */
-a:link.lime, a:visited.lime { color: #d6f59f; }
-a:hover.lime, a:active.lime { color: #c2f071; }
-/* ORANGE LINKS */
-a:link.orange, a:visited.orange { color: #ff936f; }
-a:hover.orange, a:active.orange { color: #ff6d3c; }
+/* PURPLE LINKS */
+a:link.purple, a:visited.purple { color: #9973b5; }
+a:hover.purple, a:active.purple { color: #6d5281; }
+/* SNOW LINKS */
+a:link.snow, a:visited.snow { color: #bddbf0; }
+a:hover.snow, a:active.snow { color: #f7f7f7; }
+/* GREEN TABLE LINKS */
+a:link.green-al, a:visited.green-al { color: #323232; }
+a:hover.green-al, a:active.green-al { color: #933283; }
 
 /* LINK BUTTONS */
 /* GREEN BUTTONS */
-a:link.green-b, a:visited.green-b { background-color: #7fb5a5; color: #f7f7f7; padding: 5px 10px; }
-a:hover.green-b, a:active.green-b { background-color: #f7f7f7; color: #7fb5a5; padding: 5px 10px; }
-/* RUSTY BUTTONS */
-a:link.rusty-b, a:visited.rusty-b { background-color: #eab58b; color: #323232; padding: 5px 10px; }
-a:hover.rusty-b, a:active.rusty-b { background-color: #323232; color: #eab58b; padding: 5px 10px; }
+a:link.green-b, a:visited.green-b { background-color: #7ad083; color: #f7f7f7; padding: 5px 10px; }
+a:hover.green-b, a:active.green-b { background-color: #f7f7f7; color: #7ad083; padding: 5px 10px; }
+/* BLOOD BUTTONS */
+a:link.blood-b, a:visited.blood-b { background-color: #d63232; color: #323232; padding: 5px 10px; }
+a:hover.blood-b, a:active.blood-b { background-color: #323232; color: #d63232; padding: 5px 10px; }
 /* OCEAN BUTTONS */
 a:link.ocean-b, a:visited.ocean-b { background-color: #4195e3; color: #f7f7f7; padding: 5px 10px; }
 a:hover.ocean-b, a:active.ocean-b { background-color: #f7f7f7; color: #4195e3; padding: 5px 10px; }
-/* LIME BUTTONS */
-a:link.lime-b, a:visited.lime-b { background-color: #c2f071; color: #f7f7f7; padding: 5px 10px; }
-a:hover.lime-b, a:active.lime-b { background-color: #f7f7f7; color: #c2f071; padding: 5px 10px; }
-/* ORANGE BUTTONS */
-a:link.orange-b, a:visited.orange-b { background-color: #ff6d3c; color: #323232; padding: 5px 10px; }
-a:hover.orange-b, a:active.orange-b { background-color: #323232; color: #ff6d3c; padding: 5px 10px; }
-/* LEMON BUTTONS */
-a:link.lemon-b, a:visited.lemon-b { background-color: #fff99e; color: #323232; padding: 5px 10px; }
-a:hover.lemon-b, a:active.lemon-b { background-color: #323232; color: #fff99e; padding: 5px 10px; }
+/* PURPLE BUTTONS */
+a:link.purple-b, a:visited.purple-b { background-color: #8b5eab; color: #f7f7f7; padding: 5px 10px; }
+a:hover.purple-b, a:active.purple-b { background-color: #f7f7f7; color: #8b5eab; padding: 5px 10px; }
+/* PINK BUTTONS */
+a:link.pink-b, a:visited.pink-b { background-color: #ff6ff1; color: #f7f7f7; padding: 5px 10px; }
+a:hover.pink-b, a:active.pink-b { background-color: #6fff7d; color: #323232; padding: 5px 10px; }
+/* SNOW BUTTONS */
+a:link.snow-b, a:visited.snow-b { background-color: #f7f7f7; color: #4c4c4c; padding: 5px 10px; }
+a:hover.snow-b, a:active.snow-b { background-color: #323232; color: #f7f7f7; padding: 5px 10px; }
