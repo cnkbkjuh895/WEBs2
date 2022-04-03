@@ -1,6 +1,6 @@
 /* MAIN */
 body { background-color: #323232; }
-p, h1, h2, h3, h4 { color: #f7f7f7; }
+p, h1, h2, h3, h4 { color: #ffffff; }
 .center { text-align: center; }
 .spaced { line-height: 2; }
 
@@ -13,7 +13,7 @@ p, h1, h2, h3, h4 { color: #f7f7f7; }
 
 /* TABLES */
 table, th, td { padding: 4px; }
-table { color: #f7f7f7; border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 700px }
+table { color: #ffffff; border-collapse: collapse; table-layout: fixed; width: 100%; max-width: 700px }
 td { color: #9fdca5; text-align: center; height: 15px }
 th { color: #e0f7b6; text-align: center; }
 th.num { width: 5%; }
@@ -28,17 +28,20 @@ th.date { width: 20%; }
 .right-a { float: right; right: 0px; margin-right: 10px; margin-left: 35px; }
 .bottom { position: absolute; bottom: 0px; }
 
+/* BACKGROUND IMAGES */
+body.bg-intr { background-image: url('images/backgrounds/Claude-Oscar Monet - Flood Waters.jpg'); }
+
 /* IMAGES */
 .lady { max-width: 100%; width: auto; height: auto; } /* LADY */
 
 
 /* BOXES */
 /* (t = text) */
-.green-t { background-color: #7ad083; color: #f7f7f7; padding: 5px 10px; } /* GREEN BOXES */
-.blood-t { background-color: #d63232; color: #323232; padding: 5px 10px; } /* BLOOD BOXES */
-.pink-t { background-color: #ff6ff1; color: #f7f7f7; padding: 5px 10px; } /* PINK BOXES */
-.ocean-t { background-color: #4195e3; color: #f7f7f7; padding: 5px 10px; } /* OCEAN BOXES */
-.purple-t { background-color: #8b5eab; color: #f7f7f7; padding: 5px 10px; } /* PURPLE BOXES */
+.green-t { background-color: #6ccb75; color: #ffffff; padding: 5px 10px; } /* GREEN BOXES */
+.blood-t { background-color: #db4848; color: #323232; padding: 5px 10px; } /* BLOOD BOXES */
+.pink-t { background-color: #ff6ff1; color: #ffffff; padding: 5px 10px; } /* PINK BOXES */
+.ocean-t { background-color: #4195e3; color: #ffffff; padding: 5px 10px; } /* OCEAN BOXES */
+.purple-t { background-color: #8b5eab; color: #ffffff; padding: 5px 10px; } /* PURPLE BOXES */
 .snow-t { background-color: #f7f7f7; color: #4c4c4c; padding: 5px 10px; } /*WHITE BOXES*/
 
 /* TABLE LINKS+TEXT */
@@ -52,7 +55,7 @@ th.date { width: 20%; }
 a:link, a:visited { color: #9fdca5; text-decoration: none; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
 a:hover, a:active { color: #d3eed6; text-decoration: none; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
 /* BLOOD LINKS */
-a:link.blood, a:visited.blood { color: #e26f6f; }
+a:link.blood, a:visited.blood { color: #E47C7C; }
 a:hover.blood, a:active.blood { color: #da4646; }
 /* PINK LINKS */
 a:link.pink, a:visited.pink { color: #ff1ba1; }
@@ -61,30 +64,30 @@ a:hover.pink, a:active.pink { color: #6fff7d; }
 a:link.ocean, a:visited.ocean { color: #57a1e6; }
 a:hover.ocean, a:active.ocean { color: #4195e3; }
 /* PURPLE LINKS */
-a:link.purple, a:visited.purple { color: #9973b5; }
-a:hover.purple, a:active.purple { color: #6d5281; }
+a:link.purple, a:visited.purple { color: #ae8fc1; }
+a:hover.purple, a:active.purple { color: #7b638d; }
 /* SNOW LINKS */
 a:link.snow, a:visited.snow { color: #bddbf0; }
-a:hover.snow, a:active.snow { color: #f7f7f7; }
+a:hover.snow, a:active.snow { color: #ffffff; }
 /* GREEN TABLE LINKS */
 a:link.green-al, a:visited.green-al { color: #323232; }
 a:hover.green-al, a:active.green-al { color: #933283; }
 
 /* LINK BUTTONS */
 /* GREEN BUTTONS */
-a:link.green-b, a:visited.green-b { background-color: #7ad083; color: #f7f7f7; padding: 5px 10px; }
-a:hover.green-b, a:active.green-b { background-color: #f7f7f7; color: #7ad083; padding: 5px 10px; }
+a:link.green-b, a:visited.green-b { background-color: #6ccb75; color: #ffffff; padding: 5px 10px; }
+a:hover.green-b, a:active.green-b { background-color: #ffffff; color: #6ccb75; padding: 5px 10px; }
 /* BLOOD BUTTONS */
-a:link.blood-b, a:visited.blood-b { background-color: #d63232; color: #323232; padding: 5px 10px; }
-a:hover.blood-b, a:active.blood-b { background-color: #323232; color: #d63232; padding: 5px 10px; }
+a:link.blood-b, a:visited.blood-b { background-color: #db4848; color: #323232; padding: 5px 10px; }
+a:hover.blood-b, a:active.blood-b { background-color: #323232; color: #db4848; padding: 5px 10px; }
 /* OCEAN BUTTONS */
-a:link.ocean-b, a:visited.ocean-b { background-color: #4195e3; color: #f7f7f7; padding: 5px 10px; }
-a:hover.ocean-b, a:active.ocean-b { background-color: #f7f7f7; color: #4195e3; padding: 5px 10px; }
+a:link.ocean-b, a:visited.ocean-b { background-color: #4195e3; color: #ffffff; padding: 5px 10px; }
+a:hover.ocean-b, a:active.ocean-b { background-color: #ffffff; color: #4195e3; padding: 5px 10px; }
 /* PURPLE BUTTONS */
-a:link.purple-b, a:visited.purple-b { background-color: #8b5eab; color: #f7f7f7; padding: 5px 10px; }
-a:hover.purple-b, a:active.purple-b { background-color: #f7f7f7; color: #8b5eab; padding: 5px 10px; }
+a:link.purple-b, a:visited.purple-b { background-color: #8b5eab; color: #ffffff; padding: 5px 10px; }
+a:hover.purple-b, a:active.purple-b { background-color: #ffffff; color: #8b5eab; padding: 5px 10px; }
 /* PINK BUTTONS */
-a:link.pink-b, a:visited.pink-b { background-color: #ff6ff1; color: #f7f7f7; padding: 5px 10px; }
+a:link.pink-b, a:visited.pink-b { background-color: #ff6ff1; color: #ffffff; padding: 5px 10px; }
 a:hover.pink-b, a:active.pink-b { background-color: #6fff7d; color: #323232; padding: 5px 10px; }
 /* SNOW BUTTONS */
 a:link.snow-b, a:visited.snow-b { background-color: #f7f7f7; color: #4c4c4c; padding: 5px 10px; }

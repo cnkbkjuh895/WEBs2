@@ -1,3 +1,4 @@
-# WEBs2
-An unbloated website for art, and general use. HTML, and CSS only. Take the code if you wish. <br />
-Hosted at: www.catosc.top
+# WEBs2 1.0
+An unbloated website for art, and general use. HTML, and CSS only. This is the last commit of 1.0. <br />
+<br />
+Hosted at: https://www.catosc.top/
